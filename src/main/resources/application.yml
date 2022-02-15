@@ -1,0 +1,13 @@
+server:
+  port: 8081
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://Localhost:3306/product
+    username: root
+    password: admin
+    driver-class-name: com.mysql.jdbc.Driver
+     
