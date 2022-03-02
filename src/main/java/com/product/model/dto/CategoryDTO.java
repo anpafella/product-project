@@ -29,5 +29,5 @@ public class CategoryDTO implements Serializable {
 	@NotNull(message = "description no debe estar vacío")
 	@Size(max = 50, message = "No pasar las 50 letras")
 	private String description;
-//	asdasdasd
+//	asdasdasdfsdfsdfsd sd f
 }
