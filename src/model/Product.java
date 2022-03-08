@@ -40,13 +40,14 @@ public class Product {
 	public void setDescripcion(String descripcion) {
 		this.descripcion = descripcion;
 	}
-//	@Override
+	
+	// this method is to friendly print
 	public String toString() {
 		return "User [id=" + id + ", precio=" + precio + ", nombreProducto=" + nombreProducto + ", descripcion="
 				+ descripcion + "]";
 	}	
 	
-	
+
 	
 	
 	
