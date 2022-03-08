@@ -41,7 +41,6 @@ public class Product {
 		this.descripcion = descripcion;
 	}
 	
-//	@Override
 	// this method is to friendly print
 	public String toString() {
 		return "User [id=" + id + ", precio=" + precio + ", nombreProducto=" + nombreProducto + ", descripcion="
